@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>TIENDA LEVIS</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                color: #222;
+            }
+
+            header {
+                background-color: white;
+                padding: 15px 25px;
+                border-bottom: 3px solid #c41230;
+            }
+
+            #user {
+                float: right;
+                font-weight: bold;
+                margin-top: 10px;
+            }
+
+            nav {
+                background-color: #222;
+                padding: 12px;
+                text-align: center;
+            }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 12px;
+                font-weight: bold;
+            }
+
+            section {
+                max-width: 900px;
+                margin: 20px auto;
+                padding: 10px;
+            }
+
+            h2 {
+                border-left: 4px solid #c41230;
+                padding-left: 10px;
+            }
+
+            .card {
+                display: inline-block;
+                width: 250px;
+                background-color: white;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                padding: 15px;
+                margin: 10px;
+                text-align: center;
+            }
+
+            .card img {
+                width: 150px;
+                height: 150px;
+            }
+
+            .card p {
+                color: #c41230;
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+            form {
+                background-color: white;
+                padding: 20px;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                max-width: 350px;
+                margin-bottom: 20px;
+            }
+
+            input {
+                width: 90%;
+                padding: 8px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+            }
+
+            button {
+                background-color: #c41230;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            footer {
+                background-color: #222;
+                color: white;
+                text-align: center;
+                padding: 15px;
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="img/logo.png" width="40"> <b>LEVIS</b>
+            <span id="user">Invitado</span>
+        </header>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#mujer">Mujer</a>
+            <a href="#hombre">Hombre</a>
+            <a href="#kids">Niños</a>
+            <a href="#colecciones">Colecciones</a>
+            <a href="#rebajas">Rebajas</a>
+            <a href="#cuenta">INICIO / REGISTRO</a>
+        </nav>
+
+        <section id="mujer">
+            <h2>ROPA DE MUJERES DISPONIBLE</h2>
+            <div class="card">
+                <img src="img/m501.jpeg">
+                <h3>LEVIS 501 MUJER</h3>
+                <p>$1999</p>
+            </div>
+            <div class="card">
+                <img src="img/m569.jpeg">
+                <h3>LEVIS 569 MUJER</h3>
+                <p>$2067</p>
+            </div>
+            <div class="card">
+                <img src="img/m511.jpeg">
+                <h3>LEVIS 511 MUJER</h3>
+                <p>$2499</p>
+            </div>
+        </section>
+
+        <section id="hombre">
+            <h2>ROPA DE HOMBRES DISPONIBLE</h2>
+            <div class="card">
+                <img src="img/h501.jpeg">
+                <h3>LEVIS 501 HOMBRES</h3>
+                <p>$2200</p>
+            </div>
+            <div class="card">
+                <img src="img/h569.jpeg">
+                <h3>LEVIS 569 HOMBRES</h3>
+                <p>$2267</p>
+            </div>
+            <div class="card">
+                <img src="img/h511.jpeg">
+                <h3>LEVIS 511 HOMBRES</h3>
+                <p>$2999</p>
+            </div>
+        </section>
+
+        <section id="kids">
+            <h2>ROPA DE NIÑOS Y NIÑAS DISPONIBLE</h2>
+            <div class="card">
+                <img src="img/unisex.jpeg">
+                <h3>CONJUNTO UNISEX LEVIS</h3>
+                <p>$899</p>
+            </div>
+            <div class="card">
+                <img src="img/niño.jpeg">
+                <h3>CONJUNTO PARA NIÑO LEVIS</h3>
+                <p>$800</p>
+            </div>
+            <div class="card">
+                <img src="img/niña.jpeg">
+                <h3>CONJUNTO NIÑA</h3>
+                <p>$850</p>
+            </div>
+        </section>
+
+        <section id="colecciones">
+            <h2>COLECCIONES DE 2026</h2>
+            <div class="card">
+                <img src="img/col1.jpeg">
+                <h3>LEVIS X BELINDA</h3>
+                <p>$4999</p>
+            </div>
+            <div class="card">
+                <img src="img/col2.jpeg">
+                <h3>LEVIS X SACAI</h3>
+                <p>$3999</p>
+            </div>
+            <div class="card">
+                <img src="img/col3.jpeg">
+                <h3>LEVIS X WORKWEAR</h3>
+                <p>$3599</p>
+            </div>
+        </section>
+
+        <section id="rebajas">
+            <h2>REBAJAS DE NOVIEMBRE</h2>
+            <div class="card">
+                <img src="img/reb1.jpeg">
+                <h3>LEVIS CAMISA</h3>
+                <p>$389</p>
+            </div>
+            <div class="card">
+                <img src="img/reb2.jpeg">
+                <h3>LEVIS 578</h3>
+                <p>$699</p>
+            </div>
+            <div class="card">
+                <img src="img/reb3.jpeg">
+                <h3>LEVIS CAMISA DE MUJER</h3>
+                <p>$359</p>
+            </div>
+        </section>
+
+        <section id="cuenta">
+            <h2>Inicio de Sesión</h2>
+            <form onsubmit="enviar(event, 'log', {e:le.value, p:lp.value})">
+                <input id="le" type="email" placeholder="Correo" required><br>
+                <input id="lp" type="password" placeholder="Contraseña" required><br>
+                <button>Entrar</button>
+            </form>
+            
+            <h2>Registro</h2>
+            <form onsubmit="enviar(event, 'reg', {n:rn.value, e:re.value, p:rp.value})">
+                <input id="rn" placeholder="Nombre" required><br>
+                <input id="re" type="email" placeholder="Correo" required><br>
+                <input id="rp" type="password" placeholder="Contraseña" required><br>
+                <button>Registrarme</button>
+            </form>
+        </section>
+            
+        <footer>
+            Alumno: BRIAN ANTONIO GALARZA FLORES  | Num De Control: 0839 | Grupo: 5-J
+        </footer>
+
+        <script>
+            if (localStorage.getItem('u')) user.innerText = "Ingresó: " + localStorage.getItem('u');
+            
+            async function enviar(e, a, datos) {
+                e.preventDefault();
+                let res = await fetch('api.php?a=' + a, { method: 'POST', body: JSON.stringify(datos) });
+                let r = await res.json();
+                if (r.ok) {
+                    localStorage.setItem('u', r.n);
+                    user.innerText = "Ingresó: " + r.n;
+                    alert("Bienvenido " + r.n);
+                } else {
+                    alert(r.m);
+                }
+                e.target.reset();
+            }
+        </script>
+    </body>
+</html>
